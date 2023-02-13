@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+}
+
+.banner-section{
+    background-image: url(../images/donation11.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:700px;
+    }
+
+
+.banner{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+.banner-title{
+    font-size: 90px;
+    padding-bottom: 20px;
+    /* padding-right: 50px; */
+   
+}
+
+.banner-detail{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: wheat;
+}
+
+.donate-btn{
+    padding: 20px;
+    font-size:15px ;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEE053;
+
+}
+
+
+.donate-section{
+    margin: 70px;
+    max-width: 900px;
+    border: 5px solid rebeccapurple;
+    
+}
+
+.donate-today{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.donate-title{
+    padding: 30px;
+}
+
+.donat-detail{
+    padding-bottom: 30px;
+}
+
+
+.amount-box h4{
+    padding: 50px;
+}
+
+.amount-box{
+    display: flex;
+    gap: 30px;
+    background-color: aliceblue;
+      
+}
+
+
+.amount{
+width: 70px;
+height: 70px;
+background: #FFFFFF;
+box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
+border-radius: 5px;
+padding: 30px;
+}
+
+
+
+
+
