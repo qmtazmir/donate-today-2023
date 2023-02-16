@@ -57,10 +57,12 @@
 
 .donate-title{
     padding: 30px;
+    font-size: 60px;
 }
 
 .donat-detail{
     padding-bottom: 30px;
+    font-size: 20px;
 }
 
 
@@ -79,17 +81,26 @@
 
 .amount{
 text-align: center;
-width: 70px;
-height: 30px;
+font-size: 25px;
+width: 300px;
+height: 60px;
 background: #FFFFFF;
 box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
 border-radius: 5px;
-padding: 30px;
+
 }
+
+#amount{
+    border: 2px solid rgb(104, 70, 206);
+    
+}
+
 
 .other-amount{
 margin-top: 30px;
 }
+
+
 .hr-line{
     width: 700px;
     margin-bottom: 20px;
@@ -106,13 +117,14 @@ margin-top: 30px;
 
 .donate-plan-titele{
     margin: 30px;
+    font-size: 70px;
 
 }
 
 
 .donate-plan-detail{
     margin: 30px;
-
+    font-size: 60x;
 }
 
 .donate-plan-box{
@@ -120,41 +132,92 @@ margin-top: 30px;
     gap: 30px;
 }
 
-/* .donate-plan-box food shelter child{
-    text-align: center;
-width: 70px;
-height: 30px;
-background: #FFFFFF;
-box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
-border-radius: 5px;
-padding: 30px;
 
-} */
+
 .food{
-    padding-right: 70px;
+    background: #74d6dd83;
+    box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
+    border-radius: 5px;
+    height: 300px;
+    width: 1000px;
+    text-align: left;
     padding-left: 5px;
+    padding-right: 20px;
 
-background: #74d6dd83;
-box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
-border-radius: 5px;
 
 }
 .shelter{
-
-background: #abafaa;
-box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
-border-radius: 5px;
-
+    background: #abafaa;
+    box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
+    border-radius: 5px;
+    height: 300px;
+    width: 1000px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 
 
 .child{
-
-background: #ecf1c2;
-box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
-border-radius: 5px;
+    background: #ecf1c2;
+    box-shadow: 0px 6px 30px rgba(235, 4, 4, 0.144);
+    border-radius: 5px;
+    height: 300px;
+    width: 1000px;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 20px;
 
 }
 
+.-img{
+    padding: 25px;
+}
 
+.title{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.detail{
+    padding-left: 10px;
+}
+
+
+
+.lives-section{
+    padding: 60px 200px;
+}
+.lives-depend{
+    display: flex;
+   gap: 30px;
+
+}
+
+.lives-title{
+    margin: 30px;
+    font-size: 40px;
+}
+
+
+.lives-detail{
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.live-btn{
+padding: 15px;
+background-color: #393a35;
+color: white;
+border-radius: 10px;
+border: none;
+font-size: 20px;
+
+}
+
+.live-img{
+    width: 500px;
+    padding-top: 40px;
+    
+}
 
